@@ -50,7 +50,7 @@ module mliolios::Suizino_core {
         transfer::share_object(Casino {
             id: object::new(ctx),
             name: string::utf8(b"Suizino"),
-            description: string::utf8(b"A small unsafe Suizino. Created by Manolis Liolios"),
+            description: string::utf8(b"A small unsafe Suizino. Created by Wizard of Hahz"),
             cost_per_game: 5000,
             casino_balance: balance::zero()
         });
